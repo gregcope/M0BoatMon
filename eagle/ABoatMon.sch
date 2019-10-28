@@ -6495,6 +6495,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="1" name="power" width="0.6096" drill="0">
 <clearance class="1" value="0.4064"/>
 </class>
+<class number="2" name="gns" width="0" drill="0">
+</class>
 </classes>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
@@ -6817,7 +6819,7 @@ Max 600mA 96% eff</text>
 <label x="162.56" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="3.3V" class="1">
+<net name="3.3V" class="2">
 <segment>
 <pinref part="U$6" gate="G$1" pin="3V3"/>
 <wire x1="33.02" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
@@ -7053,32 +7055,16 @@ Max 600mA 96% eff</text>
 <pinref part="D1" gate="G$1" pin="C"/>
 </segment>
 </net>
-<net name="D8_LNA_EN" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="LNA_EN"/>
-<wire x1="111.76" y1="50.8" x2="116.84" y2="50.8" width="0.1524" layer="91"/>
-<label x="116.84" y="50.8" size="1.27" layer="95" xref="yes"/>
-</segment>
+<net name="D8_LNA_EN" class="2">
 <segment>
 <pinref part="U$6" gate="G$1" pin="D8"/>
 <wire x1="78.74" y1="157.48" x2="86.36" y2="157.48" width="0.1524" layer="91"/>
 <label x="86.36" y="157.48" size="1.27" layer="95" xref="yes"/>
 </segment>
-</net>
-<net name="N$2" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="U$5" gate="G$1" pin="TXD/SPI_MISO"/>
-<wire x1="50.8" y1="60.96" x2="53.34" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="43.18" y1="55.88" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="55.88" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="RXD/SPI_MOSI"/>
-<wire x1="50.8" y1="58.42" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="U$5" gate="G$1" pin="LNA_EN"/>
+<wire x1="111.76" y1="50.8" x2="121.92" y2="50.8" width="0.1524" layer="91"/>
+<label x="121.92" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -7102,7 +7088,7 @@ Max 600mA 96% eff</text>
 <wire x1="111.76" y1="66.04" x2="111.76" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GNS_VCC" class="1">
+<net name="GNS_VCC" class="2">
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="LDO" gate="G$1" pin="OUT"/>
@@ -7117,19 +7103,38 @@ Max 600mA 96% eff</text>
 <segment>
 <pinref part="U$5" gate="G$1" pin="VCC_IO"/>
 <pinref part="U$5" gate="G$1" pin="VCC"/>
-<wire x1="76.2" y1="83.82" x2="80.264" y2="83.82" width="0.1524" layer="91"/>
-<label x="80.01" y="91.186" size="1.27" layer="95" xref="yes"/>
-<wire x1="80.264" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="80.264" y1="91.186" x2="80.264" y2="83.82" width="0.1524" layer="91"/>
-<junction x="80.264" y="83.82"/>
+<wire x1="76.2" y1="83.82" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="79.756" y1="83.82" x2="83.82" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="83.82" x2="79.756" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="79.756" y1="83.82" x2="79.756" y2="90.424" width="0.1524" layer="91"/>
+<label x="80.01" y="90.424" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$3" class="2">
+<segment>
+<pinref part="U$5" gate="G$1" pin="RXD/SPI_MOSI"/>
+<wire x1="53.34" y1="58.42" x2="50.8" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="58.42" x2="50.8" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="50.8" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$2" class="2">
+<segment>
+<pinref part="U$5" gate="G$1" pin="TXD/SPI_MISO"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="113,1,22.1827,43.2477,FONA,,,,,"/>
-<approved hash="113,1,170.417,81.5061,VCC,,,,,"/>
+<approved hash="202,1,53.34,53.34,U$5,D_SEL,,,,"/>
+<approved hash="202,1,53.34,66.04,U$5,SCL/SPI_CLK,,,,"/>
+<approved hash="202,1,53.34,33.02,U$5,!RESET,,,,"/>
+<approved hash="202,1,53.34,38.1,U$5,!SAFEBOOT,,,,"/>
+<approved hash="202,1,203.2,33.02,LDO,BP,,,,"/>
 <approved hash="113,1,212.683,135.958,JST,,,,,"/>
 </errors>
 </schematic>
