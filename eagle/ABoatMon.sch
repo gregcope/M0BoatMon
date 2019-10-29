@@ -6489,8 +6489,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.6096" drill="0">
-<clearance class="0" value="0.4064"/>
+<class number="0" name="default" width="0.4572" drill="0">
+<clearance class="0" value="0.3048"/>
 </class>
 <class number="1" name="power" width="0.6096" drill="0">
 <clearance class="1" value="0.4064"/>
@@ -6510,7 +6510,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_01" device="" value="GND"/>
 <part name="U$2" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$4" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
-<part name="VCC" library="microbuilder" deviceset="HEADER-1X2" device="ROUND"/>
+<part name="VCC" library="microbuilder" deviceset="HEADER-1X2" device="ROUND" value="JUMPER"/>
 <part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="GND" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$7" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
@@ -6532,7 +6532,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C4" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="4.7UF" device="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="4.7uF"/>
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
-<part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_07" device="" package3d_urn="urn:adsk.eagle:package:38129/1"/>
+<part name="SIM7020" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_07" device="" package3d_urn="urn:adsk.eagle:package:38129/1" value="SIMCOM"/>
 </parts>
 <sheets>
 <sheet>
@@ -6547,6 +6547,7 @@ Max 600mA 96% eff</text>
 <text x="189.23" y="167.64" size="3.048" layer="94" ratio="12">R2</text>
 <text x="101.6" y="167.64" size="4.572" layer="94" ratio="15">MoteinoM0 AboatMon Shield</text>
 <text x="187.96" y="25.4" size="1.27" layer="91">Consider MCP1810 lower shutdown current 1na</text>
+<text x="210.82" y="170.18" size="1.27" layer="91">VCC / GND Screw connection</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
@@ -6654,7 +6655,7 @@ Max 600mA 96% eff</text>
 <attribute name="NAME" x="30.988" y="49.149" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="30.988" y="43.815" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="J4" gate="G$1" x="149.86" y="132.08" smashed="yes">
+<instance part="SIM7020" gate="G$1" x="149.86" y="132.08" smashed="yes">
 <attribute name="VALUE" x="144.78" y="122.174" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="144.78" y="145.288" size="1.778" layer="95" font="vector"/>
 </instance>
@@ -6784,12 +6785,12 @@ Max 600mA 96% eff</text>
 <wire x1="223.52" y1="35.56" x2="223.52" y2="34.29" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="SIM7020" gate="G$1" pin="1"/>
 <wire x1="154.94" y1="127" x2="162.56" y2="127" width="0.1524" layer="91"/>
 <label x="162.56" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="6"/>
+<pinref part="SIM7020" gate="G$1" pin="6"/>
 <wire x1="154.94" y1="139.7" x2="162.56" y2="139.7" width="0.1524" layer="91"/>
 <label x="162.56" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6814,7 +6815,7 @@ Max 600mA 96% eff</text>
 <label x="154.94" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="5"/>
+<pinref part="SIM7020" gate="G$1" pin="5"/>
 <wire x1="154.94" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
 <label x="162.56" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6844,7 +6845,7 @@ Max 600mA 96% eff</text>
 <label x="86.36" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
+<pinref part="SIM7020" gate="G$1" pin="2"/>
 <wire x1="154.94" y1="129.54" x2="162.56" y2="129.54" width="0.1524" layer="91"/>
 <label x="162.56" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -6898,18 +6899,6 @@ Max 600mA 96% eff</text>
 <label x="251.46" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="D9_GNS_ENABLE" class="0">
-<segment>
-<pinref part="U$6" gate="G$1" pin="D9_DIO0"/>
-<wire x1="78.74" y1="154.94" x2="86.36" y2="154.94" width="0.1524" layer="91"/>
-<label x="86.36" y="154.94" size="1.27" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="LDO" gate="G$1" pin="EN"/>
-<wire x1="185.42" y1="33.02" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
-<label x="182.88" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="VCC_JUMPER" class="1">
 <segment>
 <pinref part="ENABLE" gate="G$1" pin="2"/>
@@ -6961,7 +6950,7 @@ Max 600mA 96% eff</text>
 <label x="86.36" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="3"/>
+<pinref part="SIM7020" gate="G$1" pin="3"/>
 <wire x1="154.94" y1="132.08" x2="162.56" y2="132.08" width="0.1524" layer="91"/>
 <label x="162.56" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7031,7 +7020,7 @@ Max 600mA 96% eff</text>
 <label x="86.36" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="7"/>
+<pinref part="SIM7020" gate="G$1" pin="7"/>
 <wire x1="154.94" y1="142.24" x2="162.56" y2="142.24" width="0.1524" layer="91"/>
 <label x="162.56" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7043,7 +7032,7 @@ Max 600mA 96% eff</text>
 <label x="86.36" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="4"/>
+<pinref part="SIM7020" gate="G$1" pin="4"/>
 <wire x1="154.94" y1="134.62" x2="162.56" y2="134.62" width="0.1524" layer="91"/>
 <label x="162.56" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -7108,6 +7097,7 @@ Max 600mA 96% eff</text>
 <wire x1="78.74" y1="83.82" x2="79.756" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="79.756" y1="83.82" x2="79.756" y2="90.424" width="0.1524" layer="91"/>
 <label x="80.01" y="90.424" size="1.27" layer="95" xref="yes"/>
+<junction x="79.756" y="83.82"/>
 </segment>
 </net>
 <net name="N$3" class="2">
@@ -7126,6 +7116,18 @@ Max 600mA 96% eff</text>
 <wire x1="53.34" y1="60.96" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="D13_GNS_ENABLE" class="0">
+<segment>
+<pinref part="LDO" gate="G$1" pin="EN"/>
+<wire x1="185.42" y1="33.02" x2="182.88" y2="33.02" width="0.1524" layer="91"/>
+<label x="182.88" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$6" gate="G$1" pin="D13_LED"/>
+<wire x1="78.74" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
+<label x="86.36" y="124.46" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -7133,6 +7135,23 @@ Max 600mA 96% eff</text>
 <approved hash="202,1,53.34,53.34,U$5,D_SEL,,,,"/>
 <approved hash="202,1,53.34,66.04,U$5,SCL/SPI_CLK,,,,"/>
 <approved hash="202,1,53.34,33.02,U$5,!RESET,,,,"/>
+<approved hash="104,1,83.82,83.82,U$5,VCC,GNS_VCC,,,"/>
+<approved hash="104,1,76.2,83.82,U$5,VCC_IO,GNS_VCC,,,"/>
+<approved hash="104,1,91.44,83.82,U$5,V_BCKP,3.3V,,,"/>
+<approved hash="104,1,66.04,17.78,U$5,GND$1,GND,,,"/>
+<approved hash="104,1,68.58,17.78,U$5,GND$2,GND,,,"/>
+<approved hash="104,1,71.12,17.78,U$5,GND$3,GND,,,"/>
+<approved hash="104,1,73.66,17.78,U$5,GND$4,GND,,,"/>
+<approved hash="104,1,76.2,17.78,U$5,GND$5,GND,,,"/>
+<approved hash="104,1,78.74,17.78,U$5,GND$6,GND,,,"/>
+<approved hash="104,1,81.28,17.78,U$5,GND$7,GND,,,"/>
+<approved hash="104,1,83.82,17.78,U$5,GND$8,GND,,,"/>
+<approved hash="104,1,86.36,17.78,U$5,GND$9,GND,,,"/>
+<approved hash="104,1,88.9,17.78,U$5,GND$10,GND,,,"/>
+<approved hash="104,1,91.44,17.78,U$5,GND$11,GND,,,"/>
+<approved hash="104,1,93.98,17.78,U$5,GND$12,GND,,,"/>
+<approved hash="104,1,96.52,17.78,U$5,GND$13,GND,,,"/>
+<approved hash="104,1,99.06,17.78,U$5,GND$14,GND,,,"/>
 <approved hash="202,1,53.34,38.1,U$5,!SAFEBOOT,,,,"/>
 <approved hash="202,1,203.2,33.02,LDO,BP,,,,"/>
 <approved hash="113,1,212.683,135.958,JST,,,,,"/>
