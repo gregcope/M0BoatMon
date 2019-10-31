@@ -6533,6 +6533,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY5" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-GREEN" device="0603" package3d_urn="urn:adsk.eagle:package:39354/1" value="GREEN"/>
 <part name="SIM7020" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_07" device="" package3d_urn="urn:adsk.eagle:package:38129/1" value="SIMCOM"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_01" device="" value="LIPO"/>
 </parts>
 <sheets>
 <sheet>
@@ -6658,6 +6659,10 @@ Max 600mA 96% eff</text>
 <instance part="SIM7020" gate="G$1" x="149.86" y="132.08" smashed="yes">
 <attribute name="VALUE" x="144.78" y="122.174" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="144.78" y="145.288" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="J4" gate="G$1" x="144.78" y="43.18" smashed="yes">
+<attribute name="VALUE" x="142.24" y="38.354" size="1.778" layer="96" font="vector"/>
+<attribute name="NAME" x="142.24" y="46.228" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -6806,32 +6811,8 @@ Max 600mA 96% eff</text>
 <pinref part="J1" gate="G$1" pin="1"/>
 <label x="264.16" y="93.98" size="1.27" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="LDO" gate="G$1" pin="IN"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="43.18" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
-<junction x="160.02" y="43.18"/>
-<label x="154.94" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="SIM7020" gate="G$1" pin="5"/>
-<wire x1="154.94" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
-<label x="162.56" y="137.16" size="1.27" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="3.3V" class="2">
-<segment>
-<pinref part="U$6" gate="G$1" pin="3V3"/>
-<wire x1="33.02" y1="124.46" x2="22.86" y2="124.46" width="0.1524" layer="91"/>
-<label x="22.86" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="3V3_2"/>
-<wire x1="57.15" y1="167.64" x2="57.15" y2="175.26" width="0.1524" layer="91"/>
-<wire x1="57.15" y1="175.26" x2="66.04" y2="175.26" width="0.1524" layer="91"/>
-<label x="66.04" y="175.26" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U$5" gate="G$1" pin="V_BCKP"/>
 <wire x1="91.44" y1="83.82" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
@@ -7126,6 +7107,21 @@ Max 600mA 96% eff</text>
 <pinref part="U$6" gate="G$1" pin="D13_LED"/>
 <wire x1="78.74" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
 <label x="86.36" y="124.46" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="LIPO" class="0">
+<segment>
+<pinref part="LDO" gate="G$1" pin="IN"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="43.18" x2="160.02" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="43.18" x2="152.4" y2="43.18" width="0.1524" layer="91"/>
+<junction x="160.02" y="43.18"/>
+<pinref part="J4" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="SIM7020" gate="G$1" pin="5"/>
+<wire x1="154.94" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
+<label x="162.56" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
