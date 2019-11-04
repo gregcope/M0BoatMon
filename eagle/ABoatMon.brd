@@ -1182,7 +1182,7 @@ LED - BLUE</description>
 <class number="2" name="gns" width="0" drill="0">
 </class>
 </classes>
-<designrules name="ABoatMon-2layer">
+<designrules name="SparkFun-2-layer-STANDARD">
 <description language="en">&lt;b&gt;SparkFun 2 Layer Design Rule Checks - STANDARD/TIGHT/FAB-LIMIT&lt;/b&gt;
 &lt;p&gt;
 These rules have been curated by SparkFuns DFM commitee. After doing much research, communicating with our multiple fab houses, and getting quotes of various designs, we have compiled three DRU files. 
@@ -1617,6 +1617,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="49.53" y="16.637" extent="1-16" drill="0.35"/>
 <via x="53.34" y="55.88" extent="1-16" drill="0.35"/>
 <via x="46.99" y="3.937" extent="1-16" drill="0.35"/>
+<via x="76.2" y="58.42" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VUSB" class="1">
 <contactref element="U$6" pad="VUSB"/>
@@ -1648,19 +1649,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <signal name="D30_TX_7020">
 <contactref element="U$6" pad="D30_TX"/>
 <contactref element="SIM7020" pad="2"/>
-<wire x1="49.53" y1="38.2905" x2="49.53" y2="38.862" width="0.4572" layer="16"/>
 <wire x1="38.481" y1="30.2895" x2="41.529" y2="30.2895" width="0.4572" layer="1"/>
 <wire x1="22.098" y1="13.9065" x2="38.481" y2="30.2895" width="0.4572" layer="1"/>
 <wire x1="15.748" y1="13.9065" x2="22.098" y2="13.9065" width="0.4572" layer="1"/>
 <wire x1="10.287" y1="13.462" x2="15.3035" y2="13.462" width="0.4572" layer="1"/>
 <wire x1="15.748" y1="13.9065" x2="15.3035" y2="13.462" width="0.4572" layer="1"/>
 <via x="41.529" y="30.2895" extent="1-16" drill="0.508"/>
-<wire x1="49.53" y1="35.2425" x2="49.53" y2="38.862" width="0.4572" layer="1"/>
 <wire x1="48.387" y1="34.0995" x2="49.53" y2="35.2425" width="0.4572" layer="1"/>
 <wire x1="44.577" y1="30.2895" x2="48.387" y2="34.0995" width="0.4572" layer="16"/>
 <wire x1="41.529" y1="30.2895" x2="44.577" y2="30.2895" width="0.4572" layer="1"/>
 <via x="48.387" y="34.0995" extent="1-16" drill="0.508"/>
 <via x="44.577" y="30.2895" extent="1-16" drill="0.508"/>
+<wire x1="49.53" y1="35.2425" x2="49.53" y2="38.862" width="0.4572" layer="1"/>
 </signal>
 <signal name="VCC" class="1">
 <contactref element="VCC" pad="2"/>
@@ -1706,12 +1706,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="74.8665" y1="56.007" x2="74.93" y2="55.88" width="0.4572" layer="1"/>
 <wire x1="80.9625" y1="32.385" x2="80.391" y2="32.385" width="0.4572" layer="16"/>
 <wire x1="82.4865" y1="33.909" x2="80.9625" y2="32.385" width="0.4572" layer="16"/>
-<wire x1="82.4865" y1="45.5295" x2="82.4865" y2="33.909" width="0.4572" layer="16"/>
-<wire x1="79.629" y1="48.387" x2="82.4865" y2="45.5295" width="0.4572" layer="16"/>
-<wire x1="79.629" y1="49.911" x2="79.629" y2="48.387" width="0.4572" layer="16"/>
-<wire x1="79.4385" y1="50.1015" x2="79.629" y2="49.911" width="0.4572" layer="16"/>
-<wire x1="79.4385" y1="52.7685" x2="79.4385" y2="50.1015" width="0.4572" layer="16"/>
-<wire x1="77.5335" y1="54.6735" x2="79.4385" y2="52.7685" width="0.4572" layer="16"/>
+<wire x1="82.4865" y1="45.4025" x2="82.4865" y2="33.909" width="0.4572" layer="16"/>
+<wire x1="79.3115" y1="48.5775" x2="82.4865" y2="45.4025" width="0.4572" layer="16"/>
+<wire x1="79.3115" y1="52.8955" x2="79.3115" y2="48.5775" width="0.4572" layer="16"/>
+<wire x1="77.5335" y1="54.6735" x2="79.3115" y2="52.8955" width="0.4572" layer="16"/>
 <wire x1="76.7715" y1="54.6735" x2="77.5335" y2="54.6735" width="0.4572" layer="16"/>
 <wire x1="75.6285" y1="55.8165" x2="76.7715" y2="54.6735" width="0.4572" layer="16"/>
 <wire x1="75.057" y1="55.8165" x2="75.6285" y2="55.8165" width="0.4572" layer="16"/>
@@ -1740,9 +1738,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="74.1045" y1="54.483" x2="71.247" y2="54.483" width="0.4572" layer="1"/>
 <wire x1="75.438" y1="53.1495" x2="74.1045" y2="54.483" width="0.4572" layer="1"/>
 <wire x1="78.105" y1="53.1495" x2="75.438" y2="53.1495" width="0.4572" layer="1"/>
-<wire x1="79.4385" y1="51.816" x2="78.105" y2="53.1495" width="0.4572" layer="1"/>
-<wire x1="79.4385" y1="45.5295" x2="79.4385" y2="51.816" width="0.4572" layer="1"/>
-<wire x1="81.915" y1="43.053" x2="79.4385" y2="45.5295" width="0.4572" layer="1"/>
+<wire x1="79.3115" y1="51.943" x2="78.105" y2="53.1495" width="0.4572" layer="1"/>
+<wire x1="79.3115" y1="45.6565" x2="79.3115" y2="51.943" width="0.4572" layer="1"/>
+<wire x1="81.915" y1="43.053" x2="79.3115" y2="45.6565" width="0.4572" layer="1"/>
 <wire x1="81.915" y1="41.529" x2="81.915" y2="43.053" width="0.4572" layer="1"/>
 <wire x1="80.264" y1="39.878" x2="81.915" y2="41.529" width="0.4572" layer="1"/>
 <wire x1="71.247" y1="54.483" x2="71.12" y2="54.61" width="0.4572" layer="1"/>
@@ -1751,7 +1749,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="U$6" pad="D1_TX1"/>
 <contactref element="R3" pad="1"/>
 <wire x1="72.898" y1="36.1315" x2="59.055" y2="22.2885" width="0.4572" layer="1"/>
-<wire x1="57.15" y1="59.182" x2="57.15" y2="58.8645" width="0.4572" layer="16"/>
 <wire x1="59.055" y1="22.2885" x2="59.055" y2="18.376" width="0.4572" layer="1"/>
 <via x="72.898" y="36.1315" extent="1-16" drill="0.508"/>
 <wire x1="63.8175" y1="52.0065" x2="57.15" y2="58.674" width="0.4572" layer="16"/>
@@ -1759,39 +1756,36 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="74.676" y1="43.2435" x2="65.913" y2="52.0065" width="0.4572" layer="16"/>
 <wire x1="74.676" y1="37.9095" x2="74.676" y2="43.2435" width="0.4572" layer="16"/>
 <wire x1="72.898" y1="36.1315" x2="74.676" y2="37.9095" width="0.4572" layer="16"/>
-<wire x1="57.15" y1="58.674" x2="57.15" y2="59.182" width="0.4572" layer="16"/>
+<wire x1="57.15" y1="59.182" x2="57.15" y2="58.674" width="0.4572" layer="16"/>
 </signal>
 <signal name="D0_RX_GNS">
 <contactref element="U$6" pad="D0_RX1"/>
 <contactref element="R2" pad="1"/>
-<wire x1="61.9125" y1="14.6685" x2="61.849" y2="14.566" width="0.4572" layer="1"/>
 <wire x1="71.882" y1="30.949" x2="61.849" y2="20.916" width="0.4572" layer="1"/>
 <wire x1="61.849" y1="14.566" x2="61.849" y2="20.916" width="0.4572" layer="1"/>
-<wire x1="71.8185" y1="33.0835" x2="71.882" y2="33.02" width="0.4572" layer="1"/>
-<wire x1="71.882" y1="33.02" x2="71.882" y2="30.949" width="0.4572" layer="1"/>
 <wire x1="54.6735" y1="59.055" x2="54.6735" y2="56.388" width="0.4572" layer="16"/>
 <wire x1="54.6735" y1="59.055" x2="54.61" y2="59.182" width="0.4572" layer="16"/>
-<via x="71.8185" y="33.0835" extent="1-16" drill="0.508"/>
 <wire x1="70.6755" y1="40.386" x2="54.6735" y2="56.388" width="0.4572" layer="16"/>
 <wire x1="72.771" y1="40.386" x2="70.6755" y2="40.386" width="0.4572" layer="16"/>
 <wire x1="73.914" y1="39.243" x2="72.771" y2="40.386" width="0.4572" layer="16"/>
 <wire x1="73.914" y1="38.2905" x2="73.914" y2="39.243" width="0.4572" layer="16"/>
-<wire x1="71.8185" y1="33.0835" x2="71.8185" y2="33.147" width="0.4572" layer="16"/>
-<wire x1="71.8185" y1="36.576" x2="71.8185" y2="33.0835" width="0.4572" layer="16"/>
-<wire x1="72.5805" y1="37.338" x2="71.8185" y2="36.576" width="0.4572" layer="16"/>
-<wire x1="72.9615" y1="37.338" x2="72.5805" y2="37.338" width="0.4572" layer="16"/>
 <wire x1="73.914" y1="38.2905" x2="72.9615" y2="37.338" width="0.4572" layer="16"/>
+<wire x1="72.009" y1="33.7185" x2="72.009" y2="31.0515" width="0.4572" layer="1"/>
+<wire x1="73.914" y1="35.6235" x2="72.009" y2="33.7185" width="0.4572" layer="1"/>
+<wire x1="73.914" y1="36.576" x2="73.914" y2="35.6235" width="0.4572" layer="1"/>
+<wire x1="73.152" y1="37.338" x2="73.914" y2="36.576" width="0.4572" layer="1"/>
+<wire x1="72.771" y1="37.338" x2="73.152" y2="37.338" width="0.4572" layer="1"/>
+<wire x1="72.009" y1="31.0515" x2="71.882" y2="30.949" width="0.4572" layer="1"/>
+<wire x1="72.771" y1="37.338" x2="72.9615" y2="37.338" width="0.4572" layer="16"/>
+<via x="72.771" y="37.338" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="D31_RX_7020">
 <contactref element="U$6" pad="D31_RX"/>
 <contactref element="SIM7020" pad="3"/>
-<wire x1="52.0065" y1="38.481" x2="52.0065" y2="38.862" width="0.4572" layer="16"/>
 <wire x1="34.29" y1="28.956" x2="35.6235" y2="28.956" width="0.4572" layer="1"/>
 <wire x1="21.336" y1="16.002" x2="34.29" y2="28.956" width="0.4572" layer="1"/>
 <wire x1="10.287" y1="16.002" x2="21.336" y2="16.002" width="0.4572" layer="1"/>
-<wire x1="52.0065" y1="38.862" x2="52.07" y2="38.862" width="0.4572" layer="16"/>
 <via x="35.6235" y="28.956" extent="1-16" drill="0.508"/>
-<wire x1="51.435" y1="38.862" x2="52.07" y2="38.862" width="0.4572" layer="1"/>
 <wire x1="48.768" y1="41.529" x2="51.435" y2="38.862" width="0.4572" layer="1"/>
 <wire x1="28.575" y1="41.529" x2="48.768" y2="41.529" width="0.4572" layer="1"/>
 <wire x1="26.289" y1="39.243" x2="28.575" y2="41.529" width="0.4572" layer="16"/>
@@ -1804,6 +1798,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="10.287" y1="16.1925" x2="10.287" y2="16.002" width="0.4572" layer="1"/>
 <via x="28.575" y="41.529" extent="1-16" drill="0.508"/>
 <via x="26.289" y="39.243" extent="1-16" drill="0.508"/>
+<wire x1="51.435" y1="38.862" x2="52.07" y2="38.862" width="0.4572" layer="1"/>
 </signal>
 <signal name="A1_VCC_VD">
 <contactref element="U$6" pad="A1"/>
@@ -1862,10 +1857,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="6.858" y1="41.529" x2="6.858" y2="39.243" width="0.4572" layer="1"/>
 <wire x1="3.429" y1="44.958" x2="6.858" y2="41.529" width="0.4572" layer="1"/>
 <wire x1="3.429" y1="46.482" x2="3.429" y2="44.958" width="0.4572" layer="1"/>
-<wire x1="4.572" y1="47.625" x2="3.429" y2="46.482" width="0.4572" layer="1"/>
-<wire x1="7.62" y1="47.625" x2="4.572" y2="47.625" width="0.4572" layer="1"/>
-<wire x1="9.7155" y1="49.7205" x2="7.62" y2="47.625" width="0.4572" layer="1"/>
-<wire x1="9.7155" y1="56.9595" x2="9.7155" y2="49.7205" width="0.4572" layer="1"/>
+<wire x1="4.445" y1="47.498" x2="3.429" y2="46.482" width="0.4572" layer="1"/>
+<wire x1="7.747" y1="47.498" x2="4.445" y2="47.498" width="0.4572" layer="1"/>
+<wire x1="9.7155" y1="49.4665" x2="7.747" y2="47.498" width="0.4572" layer="1"/>
+<wire x1="9.7155" y1="56.9595" x2="9.7155" y2="49.4665" width="0.4572" layer="1"/>
 <wire x1="11.684" y1="58.928" x2="9.7155" y2="56.9595" width="0.4572" layer="1"/>
 </signal>
 <signal name="D10_7020_SLEEP">
@@ -2076,6 +2071,28 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="5,1,a2be5644890fc536"/>
+<approved hash="5,1,a9d0564c890bce54"/>
+<approved hash="5,1,77a5c484027745cf"/>
+<approved hash="5,1,55a0e284067745ca"/>
+<approved hash="5,1,b4c55e7a997bdb31"/>
+<approved hash="5,1,bfdb5e42993fd053"/>
+<approved hash="5,1,1272bf39fe5df9ff"/>
+<approved hash="5,1,1d728922cf70e1ff"/>
+<approved hash="5,1,02fa80eed934e1ff"/>
+<approved hash="5,1,0502bddae3c8e1cf"/>
+<approved hash="5,1,0272b18ce826e107"/>
+<approved hash="5,1,027aabf8f2dae187"/>
+<approved hash="5,1,c23f0458b3ab9d11"/>
+<approved hash="5,1,12fa9105d0e9f9ff"/>
+<approved hash="5,1,3e3fd04ae9b9ef11"/>
+<approved hash="5,1,6a8bfa44065a96a3"/>
+<approved hash="5,1,0d0ca5c4365a9ea4"/>
+<approved hash="5,1,127aa50de451f9cf"/>
+<approved hash="5,1,d6715e72990bb9fd"/>
+<approved hash="5,1,ab535e72990fc4db"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
