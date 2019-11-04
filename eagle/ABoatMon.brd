@@ -165,21 +165,20 @@ Max 600mA96% eff</text>
 <text x="81.788" y="39.37" size="1.016" layer="25" font="vector" ratio="20">LED</text>
 <text x="81.788" y="26.797" size="1.016" layer="25" font="vector" ratio="20">DS_PWR</text>
 <text x="81.788" y="31.877" size="1.016" layer="25" font="vector" ratio="20">DS_DA</text>
-<text x="36.322" y="57.785" size="1.016" layer="25" font="vector" ratio="20" rot="R270">GND</text>
-<text x="33.909" y="57.658" size="1.016" layer="25" font="vector" ratio="20" rot="R270">VUSB</text>
-<text x="61.595" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D3_BILGESW</text>
-<text x="66.929" y="58.039" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D5_LED_SWITCH</text>
-<text x="64.262" y="58.039" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D4_LED</text>
+<text x="36.322" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">GND</text>
+<text x="33.909" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">VUSB</text>
+<text x="66.929" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D5_LED_SWITCH</text>
+<text x="64.262" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D4_LED</text>
 <text x="69.469" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D6_DS_PWR</text>
-<text x="71.882" y="58.039" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D7_DS_DATA</text>
+<text x="72.009" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D7_DS_DATA</text>
 <text x="65.278" y="40.513" size="1.016" layer="25" font="vector" ratio="20" rot="R90">A1_VCC_VD</text>
 <text x="47.498" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D10_7020_SLEEP</text>
 <text x="72.898" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D8_LNA_EN</text>
 <text x="39.878" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D13_GNS_ENABLE</text>
-<text x="56.642" y="58.039" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D1_TX_GNS</text>
-<text x="54.102" y="57.912" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D0_RX_GNS</text>
-<text x="52.832" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D31_RX_7020</text>
-<text x="50.292" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D30_TX_7020</text>
+<text x="56.769" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D1_TX_GNS</text>
+<text x="54.229" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D0_RX_GNS</text>
+<text x="52.578" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D31_RX_7020</text>
+<text x="50.038" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D30_TX_7020</text>
 <text x="34.417" y="40.513" size="1.016" layer="25" font="vector" ratio="20" rot="R90">VUSB</text>
 <text x="37.338" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">GND</text>
 <text x="44.958" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D11_7020_PWRKEY</text>
@@ -203,7 +202,7 @@ Max 600mA96% eff</text>
 <wire x1="77.47" y1="0" x2="80.01" y2="2.54" width="0.1524" layer="20" curve="90"/>
 <text x="81.788" y="29.337" size="1.016" layer="25" font="vector" ratio="20">GND</text>
 <text x="76.327" y="37.846" size="1.016" layer="25" font="vector" ratio="20" rot="R90">GND</text>
-<text x="38.862" y="57.785" size="1.016" layer="25" font="vector" ratio="20" rot="R270">3.3V</text>
+<text x="38.989" y="58.039" size="1.016" layer="25" font="vector" ratio="20" rot="R270">3.3V</text>
 <text x="46.482" y="46.99" size="1.016" layer="25" font="vector" ratio="20" rot="R270">3.3V</text>
 <text x="81.788" y="24.257" size="1.016" layer="25" font="vector" ratio="20">GND</text>
 <text x="81.788" y="21.717" size="1.016" layer="25" font="vector" ratio="20">BILGE</text>
@@ -237,6 +236,16 @@ Max 600mA96% eff</text>
 <dimension x1="45.085" y1="35.56" x2="42.037" y2="35.56" x3="43.561" y3="33.274" textsize="1.778" layer="25"/>
 <dimension x1="41.91" y1="36.703" x2="41.91" y2="33.655" x3="43.18" y3="35.179" textsize="1.778" layer="25"/>
 <dimension x1="40.767" y1="3.175" x2="40.767" y2="0.127" x3="41.783" y3="1.651" textsize="1.778" layer="25"/>
+<text x="60.071" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D17_TIMEPULSE</text>
+<text x="41.402" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">SCL</text>
+<text x="43.942" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">SDA</text>
+<text x="46.482" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">MISO</text>
+<text x="49.022" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">SCK</text>
+<text x="51.689" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">MOSI</text>
+<text x="59.182" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D2</text>
+<text x="61.722" y="58.166" size="1.016" layer="25" font="vector" ratio="20" rot="R270">D3_BILGESW</text>
+<text x="67.564" y="40.513" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D14_LNA_EN</text>
+<text x="57.531" y="40.64" size="1.016" layer="25" font="vector" ratio="20" rot="R90">D18</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
