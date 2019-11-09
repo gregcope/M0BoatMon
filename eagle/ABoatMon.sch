@@ -2692,7 +2692,7 @@ type 0309, grid 2.5 mm</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Aesthetics">
+<library name="SparkFun-Aesthetics" urn="urn:adsk.eagle:library:507">
 <description>&lt;h3&gt;SparkFun Aesthetics&lt;/h3&gt;
 This library contiains non-functional items such as logos, build/ordering notes, frame blocks, etc. 
 &lt;br&gt;
@@ -2709,7 +2709,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages>
 </packages>
 <symbols>
-<symbol name="FR-A4L">
+<symbol name="FR-A4L" urn="urn:adsk.eagle:symbol:37073/1" library_version="1">
 <description>&lt;h3&gt;Schematic Frame - A4L - European Format&lt;/h3&gt;
 &lt;p&gt;Standard A4 size frame in Landscape&lt;/p&gt;
 &lt;p&gt;Devices using:
@@ -2737,7 +2737,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="FRAME-A4L" prefix="FRAME">
+<deviceset name="FRAME-A4L" urn="urn:adsk.eagle:component:37152/1" prefix="FRAME" library_version="1">
 <description>&lt;h3&gt;Schematic Frame - A4L - European Format&lt;/h3&gt;
 &lt;p&gt;Standard A4 size frame in Landscape&lt;/p&gt;</description>
 <gates>
@@ -4280,7 +4280,7 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MKDSN1,5/2-5,08" urn="urn:adsk.eagle:component:9705/1" prefix="X" library_version="1">
+<deviceset name="MKDSN1,5/2-5,08" urn="urn:adsk.eagle:component:9705/2" prefix="X" library_version="3">
 <description>&lt;b&gt;MKDSN 1,5/ 2-5,08&lt;/b&gt; Printklemme&lt;p&gt;
 Nennstrom: 13,5 A&lt;br&gt;
 Nennspannung: 250 V&lt;br&gt;
@@ -4305,7 +4305,9 @@ Source: http://eshop.phoenixcontact.com .. 1729128.pdf</description>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:9630/1"/>
 </package3dinstances>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="POPULARITY" value="14" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7820,7 +7822,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-A4L" device=""/>
+<part name="FRAME1" library="SparkFun-Aesthetics" library_urn="urn:adsk.eagle:library:507" deviceset="FRAME-A4L" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="50"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-KIT-EZ-50V-20%" value="0.1U"/>
 <part name="R5" library="SparkFun-Resistors" deviceset="1KOHM" device="-HORIZ-1/4W-1%" value="3.3M"/>
