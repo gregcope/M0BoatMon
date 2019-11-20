@@ -188,14 +188,14 @@ Max 600mA96% eff</text>
 <wire x1="8.89" y1="58.42" x2="8.89" y2="52.07" width="0.1524" layer="20"/>
 <wire x1="8.89" y1="2.54" x2="8.89" y2="8.89" width="0.1524" layer="20"/>
 <wire x1="2.54" y1="11.43" x2="6.35" y2="11.43" width="0.1524" layer="20"/>
-<wire x1="0" y1="13.97" x2="0" y2="45.72" width="0.1524" layer="20"/>
+<wire x1="0" y1="13.97" x2="0" y2="46.99" width="0.1524" layer="20"/>
 <wire x1="11.43" y1="60.96" x2="8.89" y2="58.42" width="0.1524" layer="20" curve="90"/>
 <wire x1="11.43" y1="0" x2="8.89" y2="2.54" width="0.1524" layer="20" curve="-90"/>
 <wire x1="80.01" y1="58.42" x2="80.01" y2="52.07" width="0.1524" layer="20"/>
 <wire x1="80.01" y1="8.89" x2="80.01" y2="2.54" width="0.1524" layer="20"/>
-<wire x1="3.81" y1="49.53" x2="6.35" y2="49.53" width="0.1524" layer="20"/>
+<wire x1="2.54" y1="49.53" x2="6.35" y2="49.53" width="0.1524" layer="20"/>
 <wire x1="6.35" y1="49.53" x2="8.89" y2="52.07" width="0.1524" layer="20" curve="90"/>
-<wire x1="3.81" y1="49.53" x2="0" y2="45.72" width="0.1524" layer="20" curve="90"/>
+<wire x1="2.54" y1="49.53" x2="0" y2="46.99" width="0.1524" layer="20" curve="90"/>
 <wire x1="2.54" y1="11.43" x2="0" y2="13.97" width="0.1524" layer="20" curve="-90"/>
 <wire x1="6.35" y1="11.43" x2="8.89" y2="8.89" width="0.1524" layer="20" curve="-90"/>
 <wire x1="77.47" y1="60.96" x2="80.01" y2="58.42" width="0.1524" layer="20" curve="-90"/>
@@ -1557,8 +1557,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="6.35" y="11.43"/>
 <vertex x="2.54" y="11.43" curve="-90"/>
 <vertex x="0" y="13.97"/>
-<vertex x="0" y="45.72" curve="-90"/>
-<vertex x="3.81" y="49.53"/>
+<vertex x="0" y="46.99" curve="-90"/>
+<vertex x="2.54" y="49.53"/>
 <vertex x="6.35" y="49.53" curve="90"/>
 <vertex x="8.89" y="52.07"/>
 <vertex x="8.89" y="58.42" curve="-90"/>
@@ -1583,8 +1583,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="6.35" y="11.43"/>
 <vertex x="2.54" y="11.43" curve="-90"/>
 <vertex x="0" y="13.97"/>
-<vertex x="0" y="45.72" curve="-90"/>
-<vertex x="3.81" y="49.53"/>
+<vertex x="0" y="46.99" curve="-90"/>
+<vertex x="2.54" y="49.53"/>
 <vertex x="6.35" y="49.53" curve="90"/>
 <vertex x="8.89" y="52.07"/>
 <vertex x="8.89" y="58.42" curve="-90"/>
