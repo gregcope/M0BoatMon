@@ -1,10 +1,10 @@
 # Eagle Files
 
 0. Uses Sparkfun DRC file
-1. ERC and DRC check clean!
-2. Bottom Copper Pour
-3. Nets Classes use 24mil width and 16mil clearance
-4. Polygons use Isolate 12mil
+1. ERC and DRC check clean
+2. Top and bottom Copper Pour
+3. Nets Classes use 24 mil width and 16mil clearance
+4. Polygons use Isolate 12 mil
 5. Layer 26 bNames - bottom silkscreen has board dimensions on it
 
 ## Design

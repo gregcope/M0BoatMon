@@ -7,8 +7,8 @@ Intro
 =====
 
 A reimplementation, and extension of https://github.com/gregcope/piboatmon, as the original consumed too much power.  This is designed with the following goals;
-* Be very, very low power and
-* Chargable from 12-24V Vehicle
+* Be very, very low power
+* Chargable from 12-24V 
 * Has a rechargable LIPO battery
 
 The present version is made from COTS parts to make life easy at the deign/proto stage.  However the code should be transferable.
