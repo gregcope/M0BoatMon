@@ -1785,6 +1785,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="33.02" y="34.29" extent="1-16" drill="0.35"/>
 <via x="25.4" y="34.29" extent="1-16" drill="0.35"/>
 <via x="36.83" y="36.83" extent="1-16" drill="0.35"/>
+<via x="1.27" y="38.1" extent="1-16" drill="0.35"/>
+<via x="1.27" y="41.91" extent="1-16" drill="0.35"/>
+<via x="1.27" y="45.72" extent="1-16" drill="0.35"/>
+<via x="1.27" y="34.29" extent="1-16" drill="0.35"/>
+<via x="1.27" y="30.48" extent="1-16" drill="0.35"/>
+<via x="1.27" y="26.67" extent="1-16" drill="0.35"/>
+<via x="1.27" y="22.86" extent="1-16" drill="0.35"/>
+<via x="1.27" y="19.05" extent="1-16" drill="0.35"/>
+<via x="1.27" y="15.24" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VUSB" class="1">
 <contactref element="U$6" pad="VUSB"/>
