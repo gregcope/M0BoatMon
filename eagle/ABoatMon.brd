@@ -2006,10 +2006,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="12.7635" y1="44.3865" x2="11.43" y2="44.3865" width="0.4572" layer="1"/>
 <wire x1="13.97" y1="43.18" x2="12.7635" y2="44.3865" width="0.4572" layer="1"/>
 <wire x1="11.43" y1="44.3865" x2="11.43" y2="44.45" width="0.4572" layer="1"/>
-<wire x1="16.383" y1="51.2445" x2="16.383" y2="54.61" width="0.4572" layer="1"/>
-<wire x1="12.7635" y1="47.625" x2="16.383" y2="51.2445" width="0.4572" layer="1"/>
-<wire x1="12.7635" y1="44.3865" x2="12.7635" y2="47.625" width="0.4572" layer="1"/>
 <via x="16.383" y="41.3385" extent="1-16" drill="0.508"/>
+<wire x1="11.43" y1="44.45" x2="16.383" y2="54.61" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="D4_LED">
 <contactref element="U$6" pad="D4"/>

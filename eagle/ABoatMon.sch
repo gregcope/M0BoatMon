@@ -7876,7 +7876,7 @@ Max 600mA 96% eff</text>
 <text x="101.6" y="167.64" size="4.572" layer="94" ratio="15">MoteinoM0 AboatMon Shield</text>
 <text x="187.96" y="25.4" size="1.27" layer="91">Consider MCP1810 lower shutdown current 1na</text>
 <text x="248.92" y="170.18" size="1.27" layer="91">VCC / GND Screw connector</text>
-<text x="116.84" y="106.68" size="1.778" layer="91">DISPLAY-OLED-128X64-I2C</text>
+<text x="116.84" y="106.68" size="1.778" layer="91">Part: DISPLAY-OLED-128X64-I2C</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
