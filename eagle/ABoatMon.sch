@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7938,7 +7938,7 @@ Variant with &lt;b&gt;I2C interface&lt;/b&gt;
 </libraries>
 <attributes>
 <attribute name="CNAME" value="MoteinoMega ABoatMon Shield"/>
-<attribute name="CREVISION" value="0.899"/>
+<attribute name="CREVISION" value="0.9"/>
 <attribute name="DESIGNER" value="gregcope@gmail.com"/>
 </attributes>
 <variantdefs>
@@ -8005,7 +8005,7 @@ Holtek HT7463A
 5V Output
 Max 600mA 96% eff</text>
 <text x="101.6" y="162.56" size="3.048" layer="94" ratio="12">Greg Cope</text>
-<text x="189.23" y="167.64" size="3.048" layer="94" ratio="12">R2</text>
+<text x="189.23" y="167.64" size="3.048" layer="94" ratio="12">R0.9</text>
 <text x="101.6" y="167.64" size="4.572" layer="94" ratio="15">MoteinoM0 AboatMon Shield</text>
 <text x="187.96" y="25.4" size="1.27" layer="91">Consider MCP1810 lower shutdown current 1na</text>
 <text x="248.92" y="170.18" size="1.27" layer="91">VCC / GND Screw connector</text>
