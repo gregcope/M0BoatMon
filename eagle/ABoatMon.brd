@@ -1481,7 +1481,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="J4" library="SparkFun-Connectors" package="1X01" value="LIPO" x="36.83" y="45.72" smashed="yes">
 <attribute name="NAME" x="35.56" y="47.117" size="0.6096" layer="25" font="vector" ratio="20"/>
-<attribute name="VALUE" x="35.56" y="44.196" size="0.6096" layer="27" font="vector" ratio="20" align="top-left"/>
+<attribute name="VALUE" x="32.131" y="46.228" size="1.016" layer="25" font="vector" ratio="20" align="top-left"/>
 </element>
 <element name="U$3" library="microbuilder" package="MOUNTINGHOLE_2.0_PLATED" value="MOUNTINGHOLE2.0" x="42.291" y="33.655" smashed="yes" grouprefs="SIMCOM"/>
 <element name="U$9" library="microbuilder" package="MOUNTINGHOLE_2.0_PLATED" value="MOUNTINGHOLE2.0" x="18.034" y="11.557" smashed="yes"/>
