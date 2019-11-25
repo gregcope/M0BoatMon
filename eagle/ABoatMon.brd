@@ -1809,8 +1809,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="48.26" y="44.45" extent="1-16" drill="0.35"/>
 <via x="52.07" y="44.45" extent="1-16" drill="0.35"/>
 <via x="55.88" y="44.45" extent="1-16" drill="0.35"/>
-<via x="55.88" y="44.45" extent="1-16" drill="0.35"/>
 <via x="55.88" y="40.64" extent="1-16" drill="0.35"/>
+<via x="67.31" y="45.72" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="VUSB" class="1">
 <contactref element="U$6" pad="VUSB"/>
@@ -1910,7 +1910,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="9.906" y1="43.6245" x2="9.906" y2="42.672" width="0.6096" layer="1"/>
 <wire x1="9.7155" y1="43.815" x2="9.906" y2="43.6245" width="0.6096" layer="1"/>
 <wire x1="9.7155" y1="48.006" x2="9.7155" y2="43.815" width="0.6096" layer="1"/>
-<wire x1="13.9065" y1="52.197" x2="9.7155" y2="48.006" width="0.6096" layer="1"/>
+<wire x1="14.097" y1="52.3875" x2="9.7155" y2="48.006" width="0.6096" layer="1"/>
 <via x="9.906" y="42.672" extent="1-16" drill="0.508"/>
 <wire x1="5.1435" y1="37.9095" x2="5.1435" y2="34.29" width="0.6096" layer="16"/>
 <wire x1="9.906" y1="42.672" x2="5.1435" y2="37.9095" width="0.6096" layer="16"/>
@@ -1918,8 +1918,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="14.097" y1="58.8645" x2="14.097" y2="56.007" width="0.6096" layer="1"/>
 <wire x1="14.097" y1="56.007" x2="13.97" y2="55.88" width="0.6096" layer="1"/>
 <wire x1="14.097" y1="58.8645" x2="14.224" y2="58.928" width="0.6096" layer="1"/>
-<wire x1="13.9065" y1="52.197" x2="13.9065" y2="55.626" width="0.6096" layer="1"/>
-<wire x1="13.9065" y1="55.626" x2="13.97" y2="55.88" width="0.6096" layer="1"/>
+<wire x1="14.097" y1="52.3875" x2="14.097" y2="55.626" width="0.6096" layer="1"/>
+<wire x1="14.097" y1="55.626" x2="13.97" y2="55.88" width="0.6096" layer="1"/>
 </signal>
 <signal name="LED">
 <contactref element="JST" pad="8"/>

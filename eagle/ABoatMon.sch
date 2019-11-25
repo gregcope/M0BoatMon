@@ -8627,10 +8627,10 @@ Max 600mA 96% eff</text>
 <approved hash="104,1,99.06,17.78,U$5,GND$14,GND,,,"/>
 <approved hash="202,1,53.34,38.1,U$5,!SAFEBOOT,,,,"/>
 <approved hash="202,1,203.2,33.02,LDO,BP,,,,"/>
-<approved hash="113,1,215.223,120.718,JST,,,,,"/>
-<approved hash="113,1,121.109,75.2263,INT_A,,,,,"/>
-<approved hash="113,1,136.622,75.2263,EXT_A,,,,,"/>
-<approved hash="113,1,146.643,138.498,JST1,,,,,"/>
+<approved hash="113,1,215.223,120.687,JST,,,,,"/>
+<approved hash="113,1,121.078,75.2263,INT_A,,,,,"/>
+<approved hash="113,1,136.591,75.2263,EXT_A,,,,,"/>
+<approved hash="113,1,146.643,138.467,JST1,,,,,"/>
 <approved hash="115,1,172.72,43.18,LIPO,,,,,"/>
 </errors>
 </schematic>
