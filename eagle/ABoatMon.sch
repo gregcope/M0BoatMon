@@ -7832,7 +7832,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_01" device="" value="GND"/>
 <part name="J3" library="SparkFun-Connectors" deviceset="CONN_01" device="" value="GND"/>
 <part name="VCC" library="microbuilder" deviceset="HEADER-1X2" device="ROUND" value="JUMPER"/>
-<part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="GND" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$7" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="JST" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_09" device="" package3d_urn="urn:adsk.eagle:package:38153/1"/>
@@ -7922,7 +7921,6 @@ Max 600mA 96% eff</text>
 <attribute name="NAME" x="189.23" y="94.615" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.23" y="83.82" size="1.778" layer="96"/>
 </instance>
-<instance part="U$1" gate="G$1" x="170.18" y="15.24" smashed="yes"/>
 <instance part="GND" gate="G$1" x="162.56" y="7.62" smashed="yes"/>
 <instance part="U$7" gate="G$1" x="170.18" y="7.62" smashed="yes"/>
 <instance part="JST" gate="G$1" x="208.28" y="119.38" smashed="yes">
