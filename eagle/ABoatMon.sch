@@ -7806,7 +7806,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </libraries>
 <attributes>
 <attribute name="CNAME" value="MoteinoMega ABoatMon Shield"/>
-<attribute name="CREVISION" value="0.9"/>
+<attribute name="CREVISION" value="0.92"/>
 <attribute name="DESIGNER" value="gregcope@gmail.com"/>
 </attributes>
 <variantdefs>
@@ -7872,7 +7872,7 @@ Holtek HT7463A
 5V Output
 Max 600mA 96% eff</text>
 <text x="101.6" y="162.56" size="3.048" layer="94" ratio="12">Greg Cope</text>
-<text x="189.23" y="167.64" size="3.048" layer="94" ratio="12">R0.9</text>
+<text x="189.23" y="167.64" size="3.048" layer="94" ratio="12">R0.92</text>
 <text x="101.6" y="167.64" size="4.572" layer="94" ratio="15">MoteinoM0 AboatMon Shield</text>
 <text x="187.96" y="25.4" size="1.27" layer="91">Consider MCP1810 lower shutdown current 1na</text>
 <text x="248.92" y="170.18" size="1.27" layer="91">VCC / GND Screw connector</text>
@@ -8627,10 +8627,10 @@ Max 600mA 96% eff</text>
 <approved hash="104,1,99.06,17.78,U$5,GND$14,GND,,,"/>
 <approved hash="202,1,53.34,38.1,U$5,!SAFEBOOT,,,,"/>
 <approved hash="202,1,203.2,33.02,LDO,BP,,,,"/>
-<approved hash="113,1,215.223,120.687,JST,,,,,"/>
-<approved hash="113,1,121.078,75.2263,INT_A,,,,,"/>
-<approved hash="113,1,136.591,75.2263,EXT_A,,,,,"/>
-<approved hash="113,1,146.643,138.467,JST1,,,,,"/>
+<approved hash="113,1,215.223,120.718,JST,,,,,"/>
+<approved hash="113,1,121.109,75.2263,INT_A,,,,,"/>
+<approved hash="113,1,136.622,75.2263,EXT_A,,,,,"/>
+<approved hash="113,1,146.643,138.498,JST1,,,,,"/>
 <approved hash="115,1,172.72,43.18,LIPO,,,,,"/>
 </errors>
 </schematic>
